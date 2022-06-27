@@ -1,0 +1,505 @@
+#pic{
+	width: 120px;
+	height: 150px;
+	border: 3px solid black;
+	margin-right: 4px;
+	margin-top: 3px;
+	margin-bottom: auto;
+	float: right;
+	position: relative;
+}
+body{
+	height: 1100px;
+}
+.header {
+	width: 50%;
+	margin: auto;
+	height: 200px;
+	background-color:#3369FF  ;
+	border: 4px solid black;
+}
+h1 {
+
+	color: black;
+	margin: 0;
+
+}
+	
+
+body {
+	background-color: lightcyan;
+	margin: 0;
+	padding: 0;
+}
+div.info {
+	width: 50%;
+	margin: auto;
+	height: 470px;
+	background-color: #E1E1E1;
+	border: 4px solid black;
+	border-top-style: none
+}
+#name {
+	
+	position: relative;
+	font-size: 30px;
+	color: white;
+	font-family: Serif, "Georgea";
+	font-weight: bold;
+	margin-left: 7px;
+	margin-top: 20px;
+}
+#first {
+	
+	margin-left: 7px;
+	font-weight: bold;
+	color: greenyellow;
+	font-size: 20px;
+}
+.social {
+	background-color: white;
+	width: 100%;
+	height: 35px;
+    position: relative;
+    margin-top:36px;
+}
+#phone{
+	width: 35px;
+	float: left;
+
+}
+#no {
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0;
+	margin-top: 7px;
+	margin-right: 10px;
+}
+#no[href^="tel"] {
+  color: inherit; 
+  text-decoration: none; 
+ }
+#no:hover {
+ 	color: green;
+ }
+#no:active {
+ 	color: violet;
+ }
+ #mail{
+ 	width: 32px;
+ 	height: 30px;
+	float: left;
+	margin-top: 3px;
+
+ }
+ a#ma {
+ 	margin-left: 8px;
+    margin-top: 7px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 7px;
+ }
+ #ma[href^="mailto:sriharri2003a@gmail.com"] {
+  color: inherit; 
+  text-decoration: none; 
+ }
+#ma:hover {
+ 	color: green;
+ }
+#ma:active {
+ 	color: violet;
+ }
+ #facebook{
+ 	width: 27px;
+ 	margin-top: 4px;
+ 	float: left;
+}
+#fb{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 5px;
+	float: left;
+	margin-top: 7px;
+}
+  #fb[href^="https://www.facebook.com/sriharri.karunanithi"] {
+  color: inherit; 
+  text-decoration: none; 
+ }
+#fb:hover {
+ 	color: green;
+ }
+#fb:active {
+ 	color: violet;
+ }
+ #info {
+	
+	margin-left: 7px;
+	font-weight: bold;
+	color: yellow;
+	font-size: 20px;
+	margin-top: 30px;
+	color: white;
+}
+#ed {
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 15px;
+	position: absolute;
+	margin-left: 15px;
+}
+#tb{
+	margin-top: 50px;
+	margin-left: 112px;
+	position: absolute;
+
+}
+td, th {
+  border: 2px solid #999;
+  padding: 0.5rem;
+}
+.con {
+width: 50%;
+height: 110px;
+background-color: #E1E1E1;
+margin-top: 350px;
+position: absolute;
+}
+#certify{
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 0px;
+	position: absolute;
+	margin-left: 15px;
+}
+#ctt {
+	margin-left: 95px;
+	margin-top: 35px;
+	position: absolute;
+}
+#tick {
+	width: 20px;
+	margin-top: 35px;
+	position: absolute;
+	margin-left: 65px;
+
+
+}
+#a {
+	margin-left: 95px;
+	margin-top: 60px;
+	position: absolute;
+}
+#tickk {
+	width: 20px;
+	margin-top: 60px;
+	position: absolute;
+	margin-left: 65px;
+}
+#b {
+	margin-left: 95px;
+	margin-top: 85px;
+	position: absolute;
+}
+#tickkk {
+	width: 20px;
+	margin-top: 85px;
+	position: absolute;
+	margin-left: 65px;
+}
+.skl {
+width: 50%;
+height: 110px;
+background-color:  #E1E1E1;
+margin-top: 215px;
+position: absolute;
+}
+#skill{
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 0px;
+	position: absolute;
+	margin-left: 15px;
+}
+#one {
+	width: 20px;
+	margin-top: 35px;
+	position: absolute;
+	margin-left: 65px;
+}
+#q {
+	margin-left: 95px;
+	margin-top: 35px;
+	position: absolute;
+	padding-right: 30px;
+}
+#two {
+	width: 20px;
+	margin-top: 60px;
+	position: absolute;
+	margin-left: 65px;
+}
+#w {
+	margin-left: 95px;
+	margin-top: 60px;
+	position: absolute;
+	padding-right: 30px;
+}
+#three{
+	width: 20px;
+	margin-top: 85px;
+	position: absolute;
+	margin-left: 65px;
+}
+#e {
+	margin-left: 95px;
+	margin-top: 85px;
+	position: absolute;
+	padding-right: 30px;
+}
+#four {
+	width: 20px;
+	margin-top: 35px;
+	position: absolute;
+	margin-left: 250px;
+}
+
+#m {
+	margin-left: 280px;
+	margin-top: 35px;
+	position: absolute;
+	padding-right: 30px;
+}
+#five {
+	width: 20px;
+	margin-top: 60px;
+	position: absolute;
+	margin-left: 250px;
+}
+
+#n{
+	margin-left: 280px;
+	margin-top: 60px;
+	position: absolute;
+	padding-right: 30px;
+}
+#six {
+	width: 20px;
+	margin-top: 85px;
+	position: absolute;
+	margin-left: 250px;
+}
+
+#v {
+	margin-left: 280px;
+	margin-top: 85px;
+	position: absolute;
+	padding-right: 30px;
+}
+#seven {
+	width: 20px;
+	margin-top: 35px;
+	position: absolute;
+	margin-left: 435px;
+}
+#p {
+	margin-left: 465px;
+	margin-top: 35px;
+	position: absolute;
+	padding-right: 30px;
+}
+#eight {
+	width: 20px;
+	margin-top: 60px;
+	position: absolute;
+	margin-left: 435px;
+}
+#o {
+	margin-left: 465px;
+	margin-top: 60px;
+	position: absolute;
+	padding-right: 30px;
+}
+#nine {
+	width: 20px;
+	margin-top: 85px;
+	position: absolute;
+	margin-left: 435px;
+}
+#i {
+	margin-left: 465px;
+	margin-top: 85px;
+	position: absolute;
+	padding-right: 30px;
+}
+.achieve {
+	position: absolute;
+	width: 50%;
+	height: 110px;
+	background-color:  #E1E1E1;
+	margin-top: 480px;
+}
+
+#ac {
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 0px;
+	position: absolute;
+	margin-left: 15px;
+}
+#list {
+	margin-top: 35px;
+	margin-left: 65px;
+}
+#list li {
+
+	margin-bottom: 10px;
+	background-image: url(goal.png);
+	background-repeat: no-repeat;
+	list-style: none outside;
+	padding-left: 42px;
+	background-position: 0 0px;
+	font-size: 21px;
+}
+#centum[href^="10.jpeg"] {
+  color: inherit; 
+  text-decoration: none; 
+ }
+#centum:hover {
+ 	color: green;
+ }
+#centum:active {
+ 	color: violet;
+ }
+ .language {
+	position: absolute;
+	width: 50%;
+	height: 110px;
+	background-color:  #E1E1E1;
+	margin-top: 625px;
+}
+#lang {
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 0px;
+	position: absolute;
+	margin-left: 15px;
+}
+#list2 {
+	margin-top: 45px;
+	margin-left: 65px;
+}
+#list2 li {
+	margin-bottom: 15px;
+	background-image: url(languages.png);
+	background-repeat: no-repeat;
+	list-style: none outside;
+	padding-left: 42px;
+	background-position: 0 0px;
+	font-size: 23px;
+}
+.footer {
+	position: absolute;
+	width: 50%;
+	height: 35px;
+	background-color:  #3369FF;
+	margin-top: 765px;
+}
+#white{
+	width: 100%;
+	height: 8px;
+	background-color: whitesmoke;
+}
+#aadhar[href^="aadhar.png"] {
+  color: inherit; 
+  text-decoration: none; 
+ }
+#aadhar:hover {
+ 	color: yellow;
+ }
+#aadhar:active {
+ 	color: violet;
+ }
+ #peace[href^="https://en.wikipedia.org/wiki/Tamil_language"] {
+  color: inherit; 
+  text-decoration: none; 
+ }
+#peace:hover {
+ 	color: green;
+ }
+#peace:active {
+ 	color: violet;
+ }
+#peace2[href^="https://en.wikipedia.org/wiki/English_language"] {
+  color: inherit; 
+  text-decoration: none; 
+ }
+#peace2:hover {
+ 	color: green;
+ }
+#peace2:active {
+ 	color: violet;
+ }
+.btn {
+	position: absolute;
+	padding: 15px 25px;
+	margin-top:-400px ;
+	margin-left: 1200px;
+	font-size: 1.1em;
+	cursor: pointer;
+}
+.popup{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #fff;
+	width: 250px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+	visibility: hidden;
+}
+.popup.active{
+	visibility: visible;
+}
+.close{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 10px 20px;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
+#my-canvas{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 100000;
+	visibility: hidden;
+	pointer-events: none;
+}
+#my-canvas.active{
+	visibility: visible;
+}
+.btn{
+	background-color: #3369FF;
+	border-radius: 8px;
+	font-weight: bold;
+	color: white;
+	border-color: black;
+}
+.btn:hover{
+	background-color: greenyellow;
+	color: black;
+}
+.close:hover {
+	background-color: orange;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ragul Resume</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="shortcut icon" type="image/jpg" href="favicon.jpg"/>
+</head>
+<body>
+		<marquee scrollmount="50" direction="right">
+			<h1>
+			MY RESUME                  
+			</h1>
+		</marquee>
+			<div class="header">
+				<img id="pic" src="RagulAdhithya.jpg">	
+				<div id="name">Ragul Adhithya M</div>
+				<div id="first"> First Year Information Technology Student at <a href="https://www.kct.ac.in" target="_blank" style="color: lightgreen;">KCT</a></div>
+				<div id="info">An independent and self motivated student </div>
+				<div class="social">
+					<img id="phone" src="phone.jpg">
+					<a id="no" href="tel:8668113739">+91 8668113739</a>
+					<img id="mail" src="gmail.png">
+					<a id="ma" href="mailto:mra20031006@gmail.com" target="_blank">mra20031006@gmail.com</a>
+					<img id="facebook" src="facebook.png">
+					<a id="fb" href="https://www.facebook.com/profile.php?id=100071622905499" target="_blank">Ragul Adhithya M</a>
+
+
+					
+				</div>
+			</div>
+				<div class="info">
+					<div id="ed">Education:</div>
+					<table id="tb">
+					  <thead>
+					    <tr>
+					      <th>S.No</th>
+					      <th>Standard</th>
+					      <th>Institution</th>
+					      <th>Year of Passing</th>
+					      <th>Percentage</th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td>1</td>
+					      <td>12th</td>
+					      <td>Vidhya Niketan MHSS</td>
+					      <td>2021</td>
+					      <td>85</td>
+					    </tr>
+					    <tr>
+					      <td>2</td>
+					      <td>11th</td>
+					      <td>Vidhya Niketan MHSS</td>
+					      <td>2020</td>
+					      <td>65</td>
+					    </tr>
+					    <tr>
+					      <td>3</td>
+					      <td>10th</td>
+					      <td>Vidhya Niketan MHSS</td>
+					      <td>2019</td>
+					      <td>79</td>
+					    </tr>
+
+					  </tbody>
+					</table>
+					<div class="skl">
+							<div id="skill">Skills:</div>
+							<img id="one" src="skill.png">
+							<div id="q">Listening</div>
+							<img id="two" src="skill.png">
+							<div id="w">Problem-solving</div>
+							<img id="three" src="skill.png">
+							<div id="e">Inventive</div> 
+
+							<img id="four" src="skill.png">
+							<div id="m">Reliable</div>
+							<img id="five" src="skill.png">
+							<div id="n">C/C++</div>
+							<img id="six" src="skill.png">
+							<div id="v">HTML/CSS</div>
+
+							<img id="seven" src="skill.png">
+							<div id="p">JavaScript</div>
+						    <img id="eight" src="skill.png">
+							<div id="o">Python </div>
+							<img id="nine" src="skill.png">
+							<div id="i">SQL</div>
+						</div>
+						<div class="con">
+							<div id="certify">Certification:</div>
+							<img id="tick" src="tick.png">
+							<div id="ctt">Python Basics for Data Science, IBM</div>
+							<img id="tickk" src="tick.png">
+							<div id="a">7 Days Bootcamp on React, MICROSOFT LEARN</div>
+							<img id="tickkk" src="tick.png">
+							<div id="b">Machine Learning Bootcamp, LEARNMALL</div>
+							</div>
+
+		
+				</div>
+				<button class="btn">Good!</button>
+				<div class="popup">
+					<h2>THANK YOU!</h2>
+					<b class="close">X</b>
+				</div>
+				<canvas id="my-canvas"></canvas>
+				<script src="index.min.js"></script>
+				<script>
+					let btn = document.querySelector('.btn');
+					let popup = document.querySelector('.popup');
+					let close = document.querySelector('.close')
+					let confe = document.querySelector('#my-canvas');
+					btn.onclick = function(){
+						popup.classList.add('active')
+						confe.classList.add('active')
+					}
+					close.onclick = function(){
+						popup.classList.remove('active')
+						confe.classList.remove('active')
+					}
+
+					var confettiSettings = { target: 'my-canvas' };
+					var confetti = new ConfettiGenerator(confettiSettings);
+					confetti.render();
+				</script>
+
+</body>
+</html>
